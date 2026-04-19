@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Diffdelta",
+  "scopeName": "source.diffdelta",
+  "patterns": [
+    { "match": "^\\+{3}.*$", "name": "diffdelta.green.level3" },
+    { "match": "^>{3}.*$", "name": "diffdelta.green.level3" },
+    { "match": "^\\+{2}.*$", "name": "diffdelta.green.level2" },
+    { "match": "^>{2}.*$", "name": "diffdelta.green.level2" },
+    { "match": "^\\+{1}.*$", "name": "diffdelta.green.level1" },
+    { "match": "^>{1}.*$", "name": "diffdelta.green.level1" },
+
+    { "match": "^-{3}.*$", "name": "diffdelta.red.level3" },
+    { "match": "^<{3}.*$", "name": "diffdelta.red.level3" },
+    { "match": "^-{2}.*$", "name": "diffdelta.red.level2" },
+    { "match": "^<{2}.*$", "name": "diffdelta.red.level2" },
+    { "match": "^-{1}.*$", "name": "diffdelta.red.level1" },
+    { "match": "^<{1}.*$", "name": "diffdelta.red.level1" },
+
+    { "match": "^={3}.*$", "name": "diffdelta.blue.level3" },
+    { "match": "^@{3}.*$", "name": "diffdelta.blue.level3" },
+    { "match": "^={2}.*$", "name": "diffdelta.blue.level2" },
+    { "match": "^@{2}.*$", "name": "diffdelta.blue.level2" },
+    { "match": "^={1}.*$", "name": "diffdelta.blue.level1" },
+    { "match": "^@{1}.*$", "name": "diffdelta.blue.level1" },
+
+    { "match": "^\\*{3}.*$", "name": "diffdelta.cyan.level3" },
+    { "match": "^#{3}.*$", "name": "diffdelta.cyan.level3" },
+    { "match": "^\\*{2}.*$", "name": "diffdelta.cyan.level2" },
+    { "match": "^#{2}.*$", "name": "diffdelta.cyan.level2" },
+    { "match": "^\\*{1}.*$", "name": "diffdelta.cyan.level1" },
+    { "match": "^#{1}.*$", "name": "diffdelta.cyan.level1" },
+
+    { "match": "^!.*$", "name": "diffdelta.orange" },
+
+    { "match": "^\\?.*$", "name": "diffdelta.yellow" },
+
+    { "match": "^\\s.*$", "name": "diffdelta.gray" }
+  ]
+}
