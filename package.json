@@ -15,7 +15,7 @@
   "contributes": {
     "languages": [
       {
-        "id": "diffdeltasyntax",
+        "id": "diffdelta",
         "aliases": ["Diff Delta", "diffdelta"],
         "extensions": [".di", ".did"]
       }
@@ -27,36 +27,12 @@
         "path": "./syntaxes/diffdelta.tmLanguage.json"
       }
     ],
-    "configurationDefaults": {
-      "[diffdelta]": {
-        "editor.tokenColorCustomizations": {
-          "textMateRules": [
-            { "scope": "diffdelta.green", "settings": { "background": "#062617" } },
-            { "scope": "diffdelta.green.level1",  "settings": { "foreground": "#86EFAC" } },
-            { "scope": "diffdelta.green.level2",  "settings": { "foreground": "#4ADE80" } },
-            { "scope": "diffdelta.green.level3",  "settings": { "foreground": "#10B981" } },
-
-            { "scope": "diffdelta.red", "settings": { "background": "#22080B" } },
-            { "scope": "diffdelta.red.level1",    "settings": { "foreground": "#FDA4AF" } },
-            { "scope": "diffdelta.red.level2",    "settings": { "foreground": "#F87171" } },
-            { "scope": "diffdelta.red.level3",    "settings": { "foreground": "#EF4444" } },
-
-            { "scope": "diffdelta.blue", "settings": { "background": "#081832" } },
-            { "scope": "diffdelta.blue.level1",   "settings": { "foreground": "#93C5FD" } },
-            { "scope": "diffdelta.blue.level2",   "settings": { "foreground": "#60A5FA" } },
-            { "scope": "diffdelta.blue.level3",   "settings": { "foreground": "#3B82F6" } },
-
-            { "scope": "diffdelta.cyan", "settings": { "background": "#052223" } },
-            { "scope": "diffdelta.cyan.level1",   "settings": { "foreground": "#67E8F9" } },
-            { "scope": "diffdelta.cyan.level2",   "settings": { "foreground": "#22D3EE" } },
-            { "scope": "diffdelta.cyan.level3",   "settings": { "foreground": "#06B6D4" } },
-
-            { "scope": "diffdelta.orange",        "settings": { "foreground": "#F57F0A", "background": "#2A1A07" } },
-            { "scope": "diffdelta.yellow",        "settings": { "foreground": "#EBEB07", "background": "#2A2405" } },
-            { "scope": "diffdelta.gray",          "settings": { "foreground": "#9CA3AF" } }
-          ]
-        }
+    "themes": [
+      {
+        "label": "DiffDelta Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/diffdelta-color-theme.json"
       }
-    }
+    ]
   }
 }
