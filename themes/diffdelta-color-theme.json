@@ -42,7 +42,7 @@
     "list.inactiveSelectionBackground": "#111111"
   },
   "tokenColors": [
-    { "scope": "markup.inserted.diffdelta",         "settings": {  } },
+    { "scope": "markup.inserted.diffdelta",         "settings": { "background": "#062617" } },
     { "scope": "markup.inserted.diffdelta.level1",  "settings": { "foreground": "#86EFAC", "background": "#062617" } },
     { "scope": "markup.inserted.diffdelta.level2",  "settings": { "foreground": "#4ADE80", "background": "#062617" } },
     { "scope": "markup.inserted.diffdelta.level3",  "settings": { "foreground": "#10B981", "background": "#062617" } },
