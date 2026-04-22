@@ -15,13 +15,13 @@
 
     { "match": "^-{3}.*$", "name": "markup.deleted.diffdelta.level3" },
     { "match": "^<{3}.*$", "name": "markup.deleted.diffdelta.level3" },
-    { "match": "^\\{3}.*$", "name": "markup.deleted.diffdelta.level3" },
+    { "match": "^\\\\{3}.*$", "name": "markup.deleted.diffdelta.level3" },
     { "match": "^-{2}.*$", "name": "markup.deleted.diffdelta.level2" },
     { "match": "^<{2}.*$", "name": "markup.deleted.diffdelta.level2" },
-    { "match": "^\\{2}.*$", "name": "markup.deleted.diffdelta.level2" },
+    { "match": "^\\\\{2}.*$", "name": "markup.deleted.diffdelta.level2" },
     { "match": "^-{1}.*$", "name": "markup.deleted.diffdelta.level1" },
     { "match": "^<{1}.*$", "name": "markup.deleted.diffdelta.level1" },
-    { "match": "^\\{1}.*$", "name": "markup.deleted.diffdelta.level1" },
+    { "match": "^\\\\{1}.*$", "name": "markup.deleted.diffdelta.level1" },
 
     { "match": "^={3}.*$", "name": "markup.changed.diffdelta.level3" },
     { "match": "^@{3}.*$", "name": "markup.changed.diffdelta.level3" },
