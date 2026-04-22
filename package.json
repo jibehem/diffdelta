@@ -17,7 +17,7 @@
       {
         "id": "diffdelta",
         "aliases": ["Diff Delta", "diffdelta"],
-        "extensions": [".di", ".did"]
+        "extensions": [".di", ".did", ".diff"]
       }
     ],
     "grammars": [
@@ -33,6 +33,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/diffdelta-color-theme.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "files.associations": {
+        "*.diff": "diffdelta"
+      }
+    }
   }
 }
